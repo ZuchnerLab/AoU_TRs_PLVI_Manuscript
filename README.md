@@ -123,4 +123,4 @@ Compressed statistics tables for all analyses (download from Zenodo: 10.5281/zen
 
 ## Citation
 
-[Manuscript in preparation]
+Danzi, M. C., Xu, I. R. L., Fazal, S., Dolzhenko, E., Pellerin, D., Weisburd, B., Reuter, C., Sampson, J., Folland, C., Wheeler, M., O'Donnell-Luria, A., Wuchty, S., Ravenscroft, G., Eberle, M. A., and the All of Us Research Program Long Read Working Group, & Zuchner, S. (2025). Detailed tandem repeat allele profiling in 1,027 long-read genomes reveals genome-wide patterns of pathogenicity. *bioRxiv*. https://doi.org/10.1101/2025.01.06.631535
