@@ -1,4 +1,5 @@
 # All of Us CDR V8 Tandem Repeat Analyses
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19239224.svg)](https://doi.org/10.5281/zenodo.19239224)
 
 This repository contains the code necessary to re-create the figures the Danzi, Xu, et al manuscript introducing the PLVI metric for STR prioritization. 
 
