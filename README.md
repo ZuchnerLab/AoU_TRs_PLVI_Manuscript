@@ -3,6 +3,35 @@
 
 This repository contains the code necessary to re-create the figures the Danzi, Xu, et al manuscript introducing the PLVI metric for STR prioritization. 
 
+# Getting Started
+
+The files required to run the code in this repository are stored in the Zenodo repository linked above and need to be arranged into subfolders. 
+To set up all the code along with the subfolders using the data on Zenodo, execute the following block of code:
+```
+# clone the Github repository
+git clone https://github.com/ZuchnerLab/AoU_TRs_PLVI_Manuscript.git
+cd AoU_TRs_PLVI_Manuscript/
+
+# determine the latest version of the data on Zenodo:
+LATEST_VERSION=$(curl -s https://zenodo.org/api/records/19239224 | grep -o '"/api/records/[0-9]*' | head -n 1 | cut -d'/' -f 4)
+
+# download the data
+wget -O zenodo_data.zip https://zenodo.org/api/records/${LATEST_VERSION}/files-archive
+
+# unpack the data into its subfolders
+unzip zenodo_data.zip
+unzip Assets_for_Figures.zip -d assets
+unzip srWGS_alleleLengthStats.zip -d statsTables
+unzip prioritizeTRWithinSample.zip -d prioritizeTRWithinSample
+mv DiscoveryCohort* statsTables/
+mv ValidationCohort* statsTables/
+mv ReplicationCohort* statsTables/
+```
+
+After that, you should be able to execute the code in the python notebooks to recreate the manuscript figures. 
+
+---
+
 ## Project Structure
 
 ### Main Figure Notebooks
@@ -80,7 +109,6 @@ Sample-level TR prioritization pipeline (download from Zenodo: 10.5281/zenodo.19
 
 ### `statsTables/`
 Compressed statistics tables for all analyses (download from Zenodo: 10.5281/zenodo.19239224)
-
 
 ### Cohort Structure
 - **Discovery Cohort** (n=543): High-coverage HiFi sequencing, median depth 32x, from AoU CDR v8
