@@ -86,14 +86,14 @@ FAM193B case study (novel CGG expansion disorder):
 - Supplementary Figures 1-4
 
 #### `SupplementaryFigures_Part2.ipynb`
-- Supplementary Figures 5-14
+- Supplementary Figures 5-17
 
 
 #### `SupplementaryFigures_Part3.ipynb`
-- Supplementary Figures 15-23
+- Supplementary Figures 18-25
 
 #### `SupplementaryFiles.ipynb`
-Generation of supplementary data files 1-3 
+Generation of supplementary data files 1-4 
 
 
 ## Subfolders
@@ -152,4 +152,4 @@ Compressed statistics tables for all analyses (download from Zenodo: 10.5281/zen
 
 ## Citation
 
-Danzi, M. C., Xu, I. R. L., Fazal, S., Dolzhenko, E., Pellerin, D., Weisburd, B., Reuter, C., Sampson, J., Folland, C., Wheeler, M., O'Donnell-Luria, A., Wuchty, S., Ravenscroft, G., Eberle, M. A., and the All of Us Research Program Long Read Working Group, & Zuchner, S. (2025). Detailed tandem repeat allele profiling in 1,027 long-read genomes reveals genome-wide patterns of pathogenicity. *bioRxiv*. https://doi.org/10.1101/2025.01.06.631535
+Danzi, Xu, et al (2025). Population-scale variability at short tandem repeat loci reveals pathogenicity signature. *bioRxiv*. https://doi.org/10.1101/2025.01.06.631535
